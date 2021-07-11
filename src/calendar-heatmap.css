@@ -23,5 +23,8 @@ rect.day-cell:hover {
   font-family: Helvetica, arial, 'Open Sans', sans-serif
 }
 .calendar-heatmap {
-  box-sizing: visible;
+  box-sizing: inherit;
+}
+svg:not(:root) {
+    overflow: visible;
 }
